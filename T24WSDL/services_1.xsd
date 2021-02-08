@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2.8 svn-revision#13980.--><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://temenos.com/PAYMENTSTOPINPUTWS" version="1.0">
+  <xsd:complexType name="PAYMENTSTOPINPUTWSType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="AccountCurrency" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gPAYMSTOPTYPE">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="mPAYMSTOPTYPE">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" name="PaymentStopType" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="FirstChequeNo" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="LastChequeNo" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="NoofLeaves" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="ChequeType" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="StopDate" nillable="true" type="xsd:date"/>
+                  <xsd:element minOccurs="0" name="AmountFrom" nillable="true" type="xsd:decimal"/>
+                  <xsd:element minOccurs="0" name="AmountTo" nillable="true" type="xsd:decimal"/>
+                  <xsd:element minOccurs="0" name="StopActive" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="WaiveCharges" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="Beneficiary" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="StopExpiryDate" nillable="true" type="xsd:date"/>
+                  <xsd:element minOccurs="0" name="sgREMARKS">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="Remarks">
+                          <xsd:complexType>
+                            <xsd:sequence>
+                              <xsd:element minOccurs="0" name="Remarks" nillable="true" type="xsd:string"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="s" type="xsd:positiveInteger"/>
+                          </xsd:complexType>
+                        </xsd:element>
+                      </xsd:sequence>
+                      <xsd:attribute name="sg" type="xsd:positiveInteger"/>
+                    </xsd:complexType>
+                  </xsd:element>
+                  <xsd:element minOccurs="0" name="sgCHARGECODE">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="ChargeCode">
+                          <xsd:complexType>
+                            <xsd:sequence>
+                              <xsd:element minOccurs="0" name="ChargeCode" nillable="true" type="xsd:string"/>
+                              <xsd:element minOccurs="0" name="ChargeAccount" nillable="true" type="xsd:string"/>
+                              <xsd:element minOccurs="0" name="ChargeCurrency" nillable="true" type="xsd:string"/>
+                              <xsd:element minOccurs="0" name="ChargeAmount" nillable="true" type="xsd:decimal"/>
+                              <xsd:element minOccurs="0" name="TaxType" nillable="true" type="xsd:string"/>
+                              <xsd:element minOccurs="0" name="TaxAmount" nillable="true" type="xsd:decimal"/>
+                              <xsd:element minOccurs="0" name="TaxCurrency" nillable="true" type="xsd:string"/>
+                              <xsd:element minOccurs="0" name="TaxDate" nillable="true" type="xsd:date"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="s" type="xsd:positiveInteger"/>
+                          </xsd:complexType>
+                        </xsd:element>
+                      </xsd:sequence>
+                      <xsd:attribute name="sg" type="xsd:positiveInteger"/>
+                    </xsd:complexType>
+                  </xsd:element>
+                </xsd:sequence>
+                <xsd:attribute name="m" type="xsd:positiveInteger"/>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="CustomerID" nillable="true" type="xsd:string"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:string"/>
+  </xsd:complexType>
+</xsd:schema>

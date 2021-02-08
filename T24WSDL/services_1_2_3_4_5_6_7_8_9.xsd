@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2.8 svn-revision#13980.--><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://temenos.com/FUNDSTRANSFERACTRMMT" version="1.0">
+  <xsd:complexType name="FUNDSTRANSFERACTRMMTType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="DebitAccount" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="DebitCurrency" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="DebitAmount" nillable="true" type="xsd:decimal"/>
+      <xsd:element minOccurs="0" name="DebitValueDate" nillable="true" type="xsd:date"/>
+      <xsd:element minOccurs="0" name="DebitNarrative" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CreditNarrative" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CreditAccount" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CreditCurrency" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CreditAmount" nillable="true" type="xsd:decimal"/>
+      <xsd:element minOccurs="0" name="CreditValueDate" nillable="true" type="xsd:date"/>
+      <xsd:element minOccurs="0" name="TreasuryRate" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gORDERINGCUST">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="OrderedBy" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="CustomerSpread" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="AmountDebited" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="AmountCredited" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CustomerRate" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gDELIVERYOUTREF">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="DeliveryReference" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="RoundingType" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gSIGNATORY">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Signatory" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="MMTTransactionId" nillable="true" type="xsd:string"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:string"/>
+  </xsd:complexType>
+</xsd:schema>

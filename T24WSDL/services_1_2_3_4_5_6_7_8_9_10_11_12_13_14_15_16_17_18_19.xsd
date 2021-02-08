@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2.8 svn-revision#13980.--><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://temenos.com/CBOCARDREGDET" version="1.0">
+  <xsd:complexType name="CBOCARDREGDETType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="CUSTOMERID" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CUSTITLE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CARDREQTYPE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="DEBITCARDTYPE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="FIRSTNAME" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="MIDDLENAME" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="LASTNAME" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="NAMEONCARD" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="ACCOUNTTYPE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="ACCURRENCY" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="BRANCHCODE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="BIRTHDATE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="BIRTHLOC" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="MARITALSTATUS" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="GENDER" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="IDENTITYNO" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="IDENTITYTYPE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CREATIONDATE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="NATIONALITY" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="ADDRESSTYPE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="ADDRESS" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="PHONENO" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="EMAIL" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CHARGE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CHARGEDATE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CHARGECOLL" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CARDSTATUS" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="FILEEXPSTATUS" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="FILEEXPDATE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="STMTNO" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CARDNO" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CARDEXPIREDDATE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="RECORDSTATUS" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CURRNO" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="INPUTTER" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="DATETIME" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="AUTHORISER" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="COCODE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="DEPTCODE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="AUDITORCODE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="AUDITDATETIME" nillable="true" type="xsd:string"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:string"/>
+  </xsd:complexType>
+</xsd:schema>

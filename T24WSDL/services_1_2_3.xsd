@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2.8 svn-revision#13980.--><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://temenos.com/MMT" version="1.0" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" xmlns:ns1="http://temenos.com/CARDISSUEDELWS" xmlns:ns10="http://temenos.com/PAYMENTSTOPINPUTWS" xmlns:ns11="http://temenos.com/CURRENCYRATES" xmlns:ns12="http://temenos.com/ACCTVIEW" xmlns:ns13="http://temenos.com/ACCTBALCTS" xmlns:ns14="http://temenos.com/EMMTTXNFT" xmlns:ns15="http://temenos.com/EMMTMINISTMT" xmlns:ns16="http://temenos.com/CHQPRESENTEDWS" xmlns:ns17="http://temenos.com/EMMTMINISTMTDATE" xmlns:ns18="http://temenos.com/CBOCARDREGDETINP2" xmlns:ns19="http://temenos.com/CBOCARDREGDET" xmlns:ns2="http://temenos.com/CARDISSUE" xmlns:ns3="http://temenos.com/CHEQUEISSUEINPUTCBOWS" xmlns:ns4="http://temenos.com/CHEQUEISSUE" xmlns:ns5="http://temenos.com/ACCTCOMPANYVIEW" xmlns:ns6="http://temenos.com/PAYMENTSTOPREVOKECBOWS" xmlns:ns7="http://temenos.com/PAYMENTSTOP" xmlns:ns8="http://temenos.com/FUNDSTRANSFERACTRMMT" xmlns:ns9="http://temenos.com/FUNDSTRANSFER" xmlns:tns="http://temenos.com/MMT">
+  <xsd:import namespace="http://temenos.com/CARDISSUEDELWS" schemaLocation="services_1_2_3_4.xsd"/>
+  <xsd:import namespace="http://temenos.com/CARDISSUE" schemaLocation="services_1_2_3_4_5.xsd"/>
+  <xsd:import namespace="http://temenos.com/CHEQUEISSUEINPUTCBOWS" schemaLocation="services_1_2_3_4_5_6.xsd"/>
+  <xsd:import namespace="http://temenos.com/CHEQUEISSUE" schemaLocation="services_1_2_3_4_5_6_7.xsd"/>
+  <xsd:import namespace="http://temenos.com/ACCTCOMPANYVIEW" schemaLocation="services_1_2_3_4_5_6_7_8.xsd"/>
+  <xsd:import namespace="http://temenos.com/PAYMENTSTOPREVOKECBOWS" schemaLocation="services.xsd"/>
+  <xsd:import namespace="http://temenos.com/PAYMENTSTOP" schemaLocation="services_1_2.xsd"/>
+  <xsd:import namespace="http://temenos.com/FUNDSTRANSFERACTRMMT" schemaLocation="services_1_2_3_4_5_6_7_8_9.xsd"/>
+  <xsd:import namespace="http://temenos.com/FUNDSTRANSFER" schemaLocation="services_1_2_3_4_5_6_7_8_9_10.xsd"/>
+  <xsd:import namespace="http://temenos.com/PAYMENTSTOPINPUTWS" schemaLocation="services_1.xsd"/>
+  <xsd:import namespace="http://temenos.com/CURRENCYRATES" schemaLocation="services_1_2_3_4_5_6_7_8_9_10_11.xsd"/>
+  <xsd:import namespace="http://temenos.com/ACCTVIEW" schemaLocation="services_1_2_3_4_5_6_7_8_9_10_11_12.xsd"/>
+  <xsd:import namespace="http://temenos.com/ACCTBALCTS" schemaLocation="services_1_2_3_4_5_6_7_8_9_10_11_12_13.xsd"/>
+  <xsd:import namespace="http://temenos.com/EMMTTXNFT" schemaLocation="services_1_2_3_4_5_6_7_8_9_10_11_12_13_14.xsd"/>
+  <xsd:import namespace="http://temenos.com/EMMTMINISTMT" schemaLocation="services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15.xsd"/>
+  <xsd:import namespace="http://temenos.com/CHQPRESENTEDWS" schemaLocation="services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16.xsd"/>
+  <xsd:import namespace="http://temenos.com/EMMTMINISTMTDATE" schemaLocation="services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17.xsd"/>
+  <xsd:import namespace="http://temenos.com/CBOCARDREGDETINP2" schemaLocation="services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18.xsd"/>
+  <xsd:import namespace="http://temenos.com/CBOCARDREGDET" schemaLocation="services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19.xsd"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="ACCOUNTVIEW" type="tns:ACCOUNTVIEW"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="ACCOUNTVIEWResponse" type="tns:ACCOUNTVIEWResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="ACCTBRANCH" type="tns:ACCTBRANCH"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="ACCTBRANCHResponse" type="tns:ACCTBRANCHResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CHEQUEBOOKREQUEST" type="tns:CHEQUEBOOKREQUEST"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CHEQUEBOOKREQUESTResponse" type="tns:CHEQUEBOOKREQUESTResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CHEQUEBOOKREQUEST_Validate" type="tns:CHEQUEBOOKREQUEST_Validate"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CHEQUEBOOKREQUEST_ValidateResponse" type="tns:CHEQUEBOOKREQUEST_ValidateResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CHEQUESTATUS" type="tns:CHEQUESTATUS"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CHEQUESTATUSResponse" type="tns:CHEQUESTATUSResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CURRENCYRATES" type="tns:CURRENCYRATES"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CURRENCYRATESResponse" type="tns:CURRENCYRATESResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CancelDebitCard" type="tns:CancelDebitCard"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CancelDebitCardResponse" type="tns:CancelDebitCardResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CancelDebitCard_Validate" type="tns:CancelDebitCard_Validate"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="CancelDebitCard_ValidateResponse" type="tns:CancelDebitCard_ValidateResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="DEBITCARDREQUEST" type="tns:DEBITCARDREQUEST"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="DEBITCARDREQUESTResponse" type="tns:DEBITCARDREQUESTResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="DEBITCARDREQUEST_Validate" type="tns:DEBITCARDREQUEST_Validate"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="DEBITCARDREQUEST_ValidateResponse" type="tns:DEBITCARDREQUEST_ValidateResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="MMTACCTBALANCE" type="tns:MMTACCTBALANCE"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="MMTACCTBALANCEResponse" type="tns:MMTACCTBALANCEResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="MMTACCTTXN" type="tns:MMTACCTTXN"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="MMTACCTTXNResponse" type="tns:MMTACCTTXNResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="MMTACCTTXN_Validate" type="tns:MMTACCTTXN_Validate"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="MMTACCTTXN_ValidateResponse" type="tns:MMTACCTTXN_ValidateResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="MMTFTVIEW" type="tns:MMTFTVIEW"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="MMTFTVIEWResponse" type="tns:MMTFTVIEWResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="MMTSTMT" type="tns:MMTSTMT"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="MMTSTMTResponse" type="tns:MMTSTMTResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="REVOKESTOPPAYMENTCHEQUE" type="tns:REVOKESTOPPAYMENTCHEQUE"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="REVOKESTOPPAYMENTCHEQUEResponse" type="tns:REVOKESTOPPAYMENTCHEQUEResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="REVOKESTOPPAYMENTCHEQUE_Validate" type="tns:REVOKESTOPPAYMENTCHEQUE_Validate"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="REVOKESTOPPAYMENTCHEQUE_ValidateResponse" type="tns:REVOKESTOPPAYMENTCHEQUE_ValidateResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="STMTDATE" type="tns:STMTDATE"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="STMTDATEResponse" type="tns:STMTDATEResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="STOPPAYMENTCHEQUE" type="tns:STOPPAYMENTCHEQUE"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="STOPPAYMENTCHEQUEResponse" type="tns:STOPPAYMENTCHEQUEResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="STOPPAYMENTCHEQUE_Validate" type="tns:STOPPAYMENTCHEQUE_Validate"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="STOPPAYMENTCHEQUE_ValidateResponse" type="tns:STOPPAYMENTCHEQUE_ValidateResponse"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="callOfs" type="tns:callOfs"/>
+  <xsd:element ibmSchExtn:docRoot="true" name="callOfsResponse" type="tns:callOfsResponse"/>
+  <xsd:complexType name="CancelDebitCard_Validate">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="CARDISSUEDELWSType" type="ns1:CARDISSUEDELWSType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="webRequestCommon">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="company" type="xsd:string"/>
+      <xsd:element name="password" type="xsd:string"/>
+      <xsd:element name="userName" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ofsFunction">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="activityName" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="assignReason" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="dueDate" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="extProcess" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="extProcessID" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gtsControl" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="messageId" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="noOfAuth" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="owner" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="replace" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="startDate" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="user" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CancelDebitCard_ValidateResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="CARDISSUEType" type="ns2:CARDISSUEType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Status">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="transactionId" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="messageId" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="successIndicator" type="tns:successIndicator"/>
+      <xsd:element minOccurs="0" name="application" type="xsd:string"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="messages" nillable="true" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CancelDebitCard">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="CARDISSUEDELWSType" type="ns1:CARDISSUEDELWSType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CancelDebitCardResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="CARDISSUEType" type="ns2:CARDISSUEType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CHEQUEBOOKREQUEST">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="CHEQUEISSUEINPUTCBOWSType" type="ns3:CHEQUEISSUEINPUTCBOWSType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CHEQUEBOOKREQUESTResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="CHEQUEISSUEType" type="ns4:CHEQUEISSUEType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ACCTBRANCH">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="ACCTCOMPANYVIEWType" type="tns:enquiryInput"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="enquiryInput">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="enquiryInputCollection" nillable="true" type="tns:enquiryInputCollection"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="enquiryInputCollection">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="columnName" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="criteriaValue" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="operand" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ACCTBRANCHResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="ACCTCOMPANYVIEWType" type="ns5:ACCTCOMPANYVIEWType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="REVOKESTOPPAYMENTCHEQUE_Validate">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="PAYMENTSTOPREVOKECBOWSType" type="ns6:PAYMENTSTOPREVOKECBOWSType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="REVOKESTOPPAYMENTCHEQUE_ValidateResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="PAYMENTSTOPType" type="ns7:PAYMENTSTOPType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MMTACCTTXN">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="FUNDSTRANSFERACTRMMTType" type="ns8:FUNDSTRANSFERACTRMMTType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MMTACCTTXNResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="FUNDSTRANSFERType" type="ns9:FUNDSTRANSFERType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="STOPPAYMENTCHEQUE_Validate">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="PAYMENTSTOPINPUTWSType" type="ns10:PAYMENTSTOPINPUTWSType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="STOPPAYMENTCHEQUE_ValidateResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="PAYMENTSTOPType" type="ns7:PAYMENTSTOPType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CURRENCYRATES">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="CURRENCYRATESType" type="tns:enquiryInput"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CURRENCYRATESResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="CURRENCYRATESType" type="ns11:CURRENCYRATESType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ACCOUNTVIEW">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="ACCTVIEWType" type="tns:enquiryInput"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ACCOUNTVIEWResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="ACCTVIEWType" type="ns12:ACCTVIEWType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MMTACCTBALANCE">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="ACCTBALCTSType" type="tns:enquiryInput"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MMTACCTBALANCEResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="ACCTBALCTSType" type="ns13:ACCTBALCTSType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MMTFTVIEW">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="EMMTTXNFTType" type="tns:enquiryInput"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MMTFTVIEWResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="EMMTTXNFTType" type="ns14:EMMTTXNFTType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MMTACCTTXN_Validate">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="FUNDSTRANSFERACTRMMTType" type="ns8:FUNDSTRANSFERACTRMMTType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MMTACCTTXN_ValidateResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="FUNDSTRANSFERType" type="ns9:FUNDSTRANSFERType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="REVOKESTOPPAYMENTCHEQUE">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="PAYMENTSTOPREVOKECBOWSType" type="ns6:PAYMENTSTOPREVOKECBOWSType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="REVOKESTOPPAYMENTCHEQUEResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="PAYMENTSTOPType" type="ns7:PAYMENTSTOPType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MMTSTMT">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="EMMTMINISTMTType" type="tns:enquiryInput"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="MMTSTMTResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="EMMTMINISTMTType" type="ns15:EMMTMINISTMTType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CHEQUEBOOKREQUEST_Validate">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="CHEQUEISSUEINPUTCBOWSType" type="ns3:CHEQUEISSUEINPUTCBOWSType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CHEQUEBOOKREQUEST_ValidateResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="CHEQUEISSUEType" type="ns4:CHEQUEISSUEType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="callOfs">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="OfsRequest" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="callOfsResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="OfsResponse" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CHEQUESTATUS">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="CHQPRESENTEDWSType" type="tns:enquiryInput"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CHEQUESTATUSResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="CHQPRESENTEDWSType" type="ns16:CHQPRESENTEDWSType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="STMTDATE">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="EMMTMINISTMTDATEType" type="tns:enquiryInput"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="STMTDATEResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="EMMTMINISTMTDATEType" type="ns17:EMMTMINISTMTDATEType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DEBITCARDREQUEST">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="CBOCARDREGDETINP2Type" type="ns18:CBOCARDREGDETINP2Type"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DEBITCARDREQUESTResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="CBOCARDREGDETType" type="ns19:CBOCARDREGDETType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DEBITCARDREQUEST_Validate">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="CBOCARDREGDETINP2Type" type="ns18:CBOCARDREGDETINP2Type"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DEBITCARDREQUEST_ValidateResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="CBOCARDREGDETType" type="ns19:CBOCARDREGDETType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="STOPPAYMENTCHEQUE">
+    <xsd:sequence>
+      <xsd:element name="WebRequestCommon" type="tns:webRequestCommon"/>
+      <xsd:element name="OfsFunction" type="tns:ofsFunction"/>
+      <xsd:element name="PAYMENTSTOPINPUTWSType" type="ns10:PAYMENTSTOPINPUTWSType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="STOPPAYMENTCHEQUEResponse">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="Status" type="tns:Status"/>
+      <xsd:element minOccurs="0" name="PAYMENTSTOPType" type="ns7:PAYMENTSTOPType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="successIndicator">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Success"/>
+      <xsd:enumeration value="TWSError"/>
+      <xsd:enumeration value="T24Error"/>
+      <xsd:enumeration value="T24Override"/>
+      <xsd:enumeration value="T24Offline"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2.8 svn-revision#13980.--><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://temenos.com/ACCTBALCTS" version="1.0">
+  <xsd:complexType name="ACCTBALCTSType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="ZERORECORDS" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gACCTBALCTSDetailType">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="mACCTBALCTSDetailType">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" name="AccountNo" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="Customer" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="AcctNo" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="Name" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="Limitref" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="Product" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="Ccy" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="WorkingBal" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="LedgerBal" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="ClearedBal" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="DateFrom" nillable="true" type="xsd:date"/>
+                  <xsd:element minOccurs="0" name="LockedAmount" nillable="true" type="xsd:decimal"/>
+                  <xsd:element minOccurs="0" name="UseableBal" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="LMAMOUNT" nillable="true" type="xsd:string"/>
+                </xsd:sequence>
+                <xsd:attribute name="m" type="xsd:positiveInteger"/>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

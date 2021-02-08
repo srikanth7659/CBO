@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2.8 svn-revision#13980.--><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://temenos.com/PAYMENTSTOP" version="1.0">
+  <xsd:complexType name="PAYMENTSTOPType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="CURRENCY" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gPAYMSTOPTYPE">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="mPAYMSTOPTYPE">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" name="PAYMSTOPTYPE" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="FIRSTCHEQUENO" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="LASTCHEQUENO" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="NOOFLEAVES" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="CHEQUETYPE" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="STOPDATE" nillable="true" type="xsd:date"/>
+                  <xsd:element minOccurs="0" name="AMOUNTFROM" nillable="true" type="xsd:decimal"/>
+                  <xsd:element minOccurs="0" name="AMOUNTTO" nillable="true" type="xsd:decimal"/>
+                  <xsd:element minOccurs="0" name="STOPACTIVE" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="WAIVECHARGE" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="BENEFICIARY" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="STOPENDFLAG" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="APPLYDATE" nillable="true" type="xsd:date"/>
+                  <xsd:element minOccurs="0" name="sgREMARKS">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="REMARKS">
+                          <xsd:complexType>
+                            <xsd:sequence>
+                              <xsd:element minOccurs="0" name="REMARKS" nillable="true" type="xsd:string"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="s" type="xsd:positiveInteger"/>
+                          </xsd:complexType>
+                        </xsd:element>
+                      </xsd:sequence>
+                      <xsd:attribute name="sg" type="xsd:positiveInteger"/>
+                    </xsd:complexType>
+                  </xsd:element>
+                  <xsd:element minOccurs="0" name="RAISEACTIVITY" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="sgCHARGECODE">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="CHARGECODE">
+                          <xsd:complexType>
+                            <xsd:sequence>
+                              <xsd:element minOccurs="0" name="CHARGECODE" nillable="true" type="xsd:string"/>
+                              <xsd:element minOccurs="0" name="CHGACCOUNT" nillable="true" type="xsd:string"/>
+                              <xsd:element minOccurs="0" name="CHGCURRENCY" nillable="true" type="xsd:string"/>
+                              <xsd:element minOccurs="0" name="CHGAMOUNT" nillable="true" type="xsd:decimal"/>
+                              <xsd:element minOccurs="0" name="TAXTYPE" nillable="true" type="xsd:string"/>
+                              <xsd:element minOccurs="0" name="TAXAMT" nillable="true" type="xsd:decimal"/>
+                              <xsd:element minOccurs="0" name="TAXCCY" nillable="true" type="xsd:string"/>
+                              <xsd:element minOccurs="0" name="TAXDATE" nillable="true" type="xsd:date"/>
+                              <xsd:element minOccurs="0" name="RESERVED1" nillable="true" type="xsd:date"/>
+                              <xsd:element minOccurs="0" name="RESERVED2" nillable="true" type="xsd:date"/>
+                              <xsd:element minOccurs="0" name="RESERVED3" nillable="true" type="xsd:date"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="s" type="xsd:positiveInteger"/>
+                          </xsd:complexType>
+                        </xsd:element>
+                      </xsd:sequence>
+                      <xsd:attribute name="sg" type="xsd:positiveInteger"/>
+                    </xsd:complexType>
+                  </xsd:element>
+                </xsd:sequence>
+                <xsd:attribute name="m" type="xsd:positiveInteger"/>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="CUSTOMERNO" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="DATEOFISSUE" nillable="true" type="xsd:date"/>
+      <xsd:element minOccurs="0" name="ACTIONDATE" nillable="true" type="xsd:date"/>
+      <xsd:element minOccurs="0" name="OURREFERENCE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="MESSAGEREC" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gPAYEE">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="PAYEE" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="gANSWERS">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="ANSWERS" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="gSENDNOTICE">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="SENDNOTICE" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="gACTIVITYCODE">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="mACTIVITYCODE">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" name="ACTIVITYCODE" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="ACTIVITYDATE" nillable="true" type="xsd:date"/>
+                  <xsd:element minOccurs="0" name="sgMAPPINGKEY">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="MAPPINGKEY">
+                          <xsd:complexType>
+                            <xsd:sequence>
+                              <xsd:element minOccurs="0" name="MAPPINGKEY" nillable="true" type="xsd:string"/>
+                              <xsd:element minOccurs="0" name="DELIVERYREF" nillable="true" type="xsd:string"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="s" type="xsd:positiveInteger"/>
+                          </xsd:complexType>
+                        </xsd:element>
+                      </xsd:sequence>
+                      <xsd:attribute name="sg" type="xsd:positiveInteger"/>
+                    </xsd:complexType>
+                  </xsd:element>
+                </xsd:sequence>
+                <xsd:attribute name="m" type="xsd:positiveInteger"/>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="MT112CHEQUENO" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="MT112AMOUNT" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gMODPSCHQNO">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="mMODPSCHQNO">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" name="MODPSCHQNO" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="MODCHQTYPE" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="MODPSDATE" nillable="true" type="xsd:date"/>
+                  <xsd:element minOccurs="0" name="REVAUTHDATE" nillable="true" type="xsd:date"/>
+                </xsd:sequence>
+                <xsd:attribute name="m" type="xsd:positiveInteger"/>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="INDRAWERBKACCT" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gINDRAWERBANK">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="INDRAWERBANK" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="INDELIVERYREF" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="INWARDMSGTYPE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gINSWIFTMSG">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="INSWIFTMSG" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="gINPROCESSERR">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="INPROCESSERR" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="gDDBCSORTCODE">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="mDDBCSORTCODE">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element minOccurs="0" name="DDBCSORTCODE" nillable="true" type="xsd:string"/>
+                  <xsd:element minOccurs="0" name="sgDDMANDATEREF">
+                    <xsd:complexType>
+                      <xsd:sequence>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="DDMANDATEREF">
+                          <xsd:complexType>
+                            <xsd:sequence>
+                              <xsd:element minOccurs="0" name="DDMANDATEREF" nillable="true" type="xsd:string"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="s" type="xsd:positiveInteger"/>
+                          </xsd:complexType>
+                        </xsd:element>
+                      </xsd:sequence>
+                      <xsd:attribute name="sg" type="xsd:positiveInteger"/>
+                    </xsd:complexType>
+                  </xsd:element>
+                  <xsd:element minOccurs="0" name="DDSTOPTYPE" nillable="true" type="xsd:string"/>
+                </xsd:sequence>
+                <xsd:attribute name="m" type="xsd:positiveInteger"/>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="RESERVED1" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gSTMTNOS">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="STMTNOS" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="gOVERRIDE">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="OVERRIDE" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="RECORDSTATUS" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="CURRNO" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gINPUTTER">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="INPUTTER" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="gDATETIME">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="DATETIME" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="AUTHORISER" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="COCODE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="DEPTCODE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="AUDITORCODE" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="AUDITDATETIME" nillable="true" type="xsd:string"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:string"/>
+  </xsd:complexType>
+</xsd:schema>

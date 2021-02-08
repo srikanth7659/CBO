@@ -1,0 +1,286 @@
+
+
+Importing file: D:\CBO\APIWSDL\services_1.wsdl
+
+
+The following is a list of WS-I warning messages found when importing:
+XSD: The location 'services.xsd' has not been resolved because the import is unused, Line: 5, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/PAYMENTSTOPREVOKECBOWS', Line: 5, Column: 7
+XSD: The location 'services_1.xsd' has not been resolved because the import is unused, Line: 8, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/PAYMENTSTOPINPUTWS', Line: 8, Column: 7
+XSD: The location 'services_1_2.xsd' has not been resolved because the import is unused, Line: 11, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/PAYMENTSTOP', Line: 11, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9.xsd' has not been resolved because the import is unused, Line: 17, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/FUNDSTRANSFERACTRMMT', Line: 17, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10.xsd' has not been resolved because the import is unused, Line: 20, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/FUNDSTRANSFER', Line: 20, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14.xsd' has not been resolved because the import is unused, Line: 23, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/EMMTTXNFT', Line: 23, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17.xsd' has not been resolved because the import is unused, Line: 26, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/EMMTMINISTMTDATE', Line: 26, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15.xsd' has not been resolved because the import is unused, Line: 29, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/EMMTMINISTMT', Line: 29, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11.xsd' has not been resolved because the import is unused, Line: 32, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CURRENCYRATES', Line: 32, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16.xsd' has not been resolved because the import is unused, Line: 35, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CHQPRESENTEDWS', Line: 35, Column: 7
+XSD: The location 'services_1_2_3_4_5_6.xsd' has not been resolved because the import is unused, Line: 38, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CHEQUEISSUEINPUTCBOWS', Line: 38, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7.xsd' has not been resolved because the import is unused, Line: 41, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CHEQUEISSUE', Line: 41, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18.xsd' has not been resolved because the import is unused, Line: 44, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CBOCARDREGDETINP2', Line: 44, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19.xsd' has not been resolved because the import is unused, Line: 47, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CBOCARDREGDET', Line: 47, Column: 7
+XSD: The location 'services_1_2_3_4.xsd' has not been resolved because the import is unused, Line: 50, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CARDISSUEDELWS', Line: 50, Column: 7
+XSD: The location 'services_1_2_3_4_5.xsd' has not been resolved because the import is unused, Line: 53, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CARDISSUE', Line: 53, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12.xsd' has not been resolved because the import is unused, Line: 56, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/ACCTVIEW', Line: 56, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8.xsd' has not been resolved because the import is unused, Line: 59, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/ACCTCOMPANYVIEW', Line: 59, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13.xsd' has not been resolved because the import is unused, Line: 62, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/ACCTBALCTS', Line: 62, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20.xsd' has not been resolved because the import is unused, Line: 65, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://jaxb.dev.java.net/array', Line: 65, Column: 7
+
+
+The WSDL import will proceed with bindings T24WebServicesImplPortBinding.
+Creating wsdl schema document for file:///D:/CBO/APIWSDL/services_1.wsdl.
+Parsing wsdl binding {http://temenos.com/MMT}T24WebServicesImplPortBinding.
+Parsing wsdl binding input callOfs.
+Parsing wsdl binding output callOfs.
+Parsing wsdl binding input DEBITCARDREQUEST.
+Parsing wsdl binding output DEBITCARDREQUEST.
+Parsing wsdl binding input DEBITCARDREQUEST_Validate.
+Parsing wsdl binding output DEBITCARDREQUEST_Validate.
+Parsing wsdl binding input STOPPAYMENTCHEQUE.
+Parsing wsdl binding output STOPPAYMENTCHEQUE.
+Parsing wsdl binding input STOPPAYMENTCHEQUE_Validate.
+Parsing wsdl binding output STOPPAYMENTCHEQUE_Validate.
+Parsing wsdl binding input STMTDATE.
+Parsing wsdl binding output STMTDATE.
+Parsing wsdl binding input CHEQUESTATUS.
+Parsing wsdl binding output CHEQUESTATUS.
+Parsing wsdl binding input MMTFTVIEW.
+Parsing wsdl binding output MMTFTVIEW.
+Parsing wsdl binding input REVOKESTOPPAYMENTCHEQUE.
+Parsing wsdl binding output REVOKESTOPPAYMENTCHEQUE.
+Parsing wsdl binding input REVOKESTOPPAYMENTCHEQUE_Validate.
+Parsing wsdl binding output REVOKESTOPPAYMENTCHEQUE_Validate.
+Parsing wsdl binding input MMTSTMT.
+Parsing wsdl binding output MMTSTMT.
+Parsing wsdl binding input CURRENCYRATES.
+Parsing wsdl binding output CURRENCYRATES.
+Parsing wsdl binding input MMTACCTBALANCE.
+Parsing wsdl binding output MMTACCTBALANCE.
+Parsing wsdl binding input ACCOUNTVIEW.
+Parsing wsdl binding output ACCOUNTVIEW.
+Parsing wsdl binding input ACCTBRANCH.
+Parsing wsdl binding output ACCTBRANCH.
+Parsing wsdl binding input MMTACCTTXN.
+Parsing wsdl binding output MMTACCTTXN.
+Parsing wsdl binding input MMTACCTTXN_Validate.
+Parsing wsdl binding output MMTACCTTXN_Validate.
+Parsing wsdl binding input CancelDebitCard.
+Parsing wsdl binding output CancelDebitCard.
+Parsing wsdl binding input CancelDebitCard_Validate.
+Parsing wsdl binding output CancelDebitCard_Validate.
+Parsing wsdl binding input CHEQUEBOOKREQUEST.
+Parsing wsdl binding output CHEQUEBOOKREQUEST.
+Parsing wsdl binding input CHEQUEBOOKREQUEST_Validate.
+Parsing wsdl binding output CHEQUEBOOKREQUEST_Validate.
+Processing doc style for operation callOfs.
+Processing doc style for operation DEBITCARDREQUEST.
+Processing doc style for operation DEBITCARDREQUEST_Validate.
+Processing doc style for operation STOPPAYMENTCHEQUE.
+Processing doc style for operation STOPPAYMENTCHEQUE_Validate.
+Processing doc style for operation STMTDATE.
+Processing doc style for operation CHEQUESTATUS.
+Processing doc style for operation MMTFTVIEW.
+Processing doc style for operation REVOKESTOPPAYMENTCHEQUE.
+Processing doc style for operation REVOKESTOPPAYMENTCHEQUE_Validate.
+Processing doc style for operation MMTSTMT.
+Processing doc style for operation CURRENCYRATES.
+Processing doc style for operation MMTACCTBALANCE.
+Processing doc style for operation ACCOUNTVIEW.
+Processing doc style for operation ACCTBRANCH.
+Processing doc style for operation MMTACCTTXN.
+Processing doc style for operation MMTACCTTXN_Validate.
+Processing doc style for operation CancelDebitCard.
+Processing doc style for operation CancelDebitCard_Validate.
+Processing doc style for operation CHEQUEBOOKREQUEST.
+Processing doc style for operation CHEQUEBOOKREQUEST_Validate.
+Populating WSDL schema services_1_wsdl.xsd.
+Creating file services_1_wsdl.xsd in the workspace.
+Creating file /T24WSDL/services.xsd in the workspace.
+Creating file /T24WSDL/services_1.xsd in the workspace.
+Creating file /T24WSDL/services_1_2.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20.xsd in the workspace.
+Copying source WSDL services_1.wsdl to services_1.wsdl.
+
+Elapsed time processing this message definition file: 12.994 seconds
+Number of warnings for this message definition file: 0
+
+The following is a list of WS-I warning messages found when importing:
+XSD: The location 'services.xsd' has not been resolved because the import is unused, Line: 5, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/PAYMENTSTOPREVOKECBOWS', Line: 5, Column: 7
+XSD: The location 'services_1.xsd' has not been resolved because the import is unused, Line: 8, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/PAYMENTSTOPINPUTWS', Line: 8, Column: 7
+XSD: The location 'services_1_2.xsd' has not been resolved because the import is unused, Line: 11, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/PAYMENTSTOP', Line: 11, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9.xsd' has not been resolved because the import is unused, Line: 17, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/FUNDSTRANSFERACTRMMT', Line: 17, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10.xsd' has not been resolved because the import is unused, Line: 20, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/FUNDSTRANSFER', Line: 20, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14.xsd' has not been resolved because the import is unused, Line: 23, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/EMMTTXNFT', Line: 23, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17.xsd' has not been resolved because the import is unused, Line: 26, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/EMMTMINISTMTDATE', Line: 26, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15.xsd' has not been resolved because the import is unused, Line: 29, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/EMMTMINISTMT', Line: 29, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11.xsd' has not been resolved because the import is unused, Line: 32, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CURRENCYRATES', Line: 32, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16.xsd' has not been resolved because the import is unused, Line: 35, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CHQPRESENTEDWS', Line: 35, Column: 7
+XSD: The location 'services_1_2_3_4_5_6.xsd' has not been resolved because the import is unused, Line: 38, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CHEQUEISSUEINPUTCBOWS', Line: 38, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7.xsd' has not been resolved because the import is unused, Line: 41, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CHEQUEISSUE', Line: 41, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18.xsd' has not been resolved because the import is unused, Line: 44, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CBOCARDREGDETINP2', Line: 44, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19.xsd' has not been resolved because the import is unused, Line: 47, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CBOCARDREGDET', Line: 47, Column: 7
+XSD: The location 'services_1_2_3_4.xsd' has not been resolved because the import is unused, Line: 50, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CARDISSUEDELWS', Line: 50, Column: 7
+XSD: The location 'services_1_2_3_4_5.xsd' has not been resolved because the import is unused, Line: 53, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/CARDISSUE', Line: 53, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12.xsd' has not been resolved because the import is unused, Line: 56, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/ACCTVIEW', Line: 56, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8.xsd' has not been resolved because the import is unused, Line: 59, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/ACCTCOMPANYVIEW', Line: 59, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13.xsd' has not been resolved because the import is unused, Line: 62, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://temenos.com/ACCTBALCTS', Line: 62, Column: 7
+XSD: The location 'services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20.xsd' has not been resolved because the import is unused, Line: 65, Column: 7
+XSD: There is no xmlns declaration for namespace 'http://jaxb.dev.java.net/array', Line: 65, Column: 7
+
+
+The WSDL import will proceed with bindings T24WebServicesImplPortBinding.
+Creating wsdl schema document for services_1_wsdl.xsd.
+Parsing wsdl binding {http://temenos.com/MMT}T24WebServicesImplPortBinding.
+Parsing wsdl binding input callOfs.
+Parsing wsdl binding output callOfs.
+Parsing wsdl binding input DEBITCARDREQUEST.
+Parsing wsdl binding output DEBITCARDREQUEST.
+Parsing wsdl binding input DEBITCARDREQUEST_Validate.
+Parsing wsdl binding output DEBITCARDREQUEST_Validate.
+Parsing wsdl binding input STOPPAYMENTCHEQUE.
+Parsing wsdl binding output STOPPAYMENTCHEQUE.
+Parsing wsdl binding input STOPPAYMENTCHEQUE_Validate.
+Parsing wsdl binding output STOPPAYMENTCHEQUE_Validate.
+Parsing wsdl binding input STMTDATE.
+Parsing wsdl binding output STMTDATE.
+Parsing wsdl binding input CHEQUESTATUS.
+Parsing wsdl binding output CHEQUESTATUS.
+Parsing wsdl binding input MMTFTVIEW.
+Parsing wsdl binding output MMTFTVIEW.
+Parsing wsdl binding input REVOKESTOPPAYMENTCHEQUE.
+Parsing wsdl binding output REVOKESTOPPAYMENTCHEQUE.
+Parsing wsdl binding input REVOKESTOPPAYMENTCHEQUE_Validate.
+Parsing wsdl binding output REVOKESTOPPAYMENTCHEQUE_Validate.
+Parsing wsdl binding input MMTSTMT.
+Parsing wsdl binding output MMTSTMT.
+Parsing wsdl binding input CURRENCYRATES.
+Parsing wsdl binding output CURRENCYRATES.
+Parsing wsdl binding input MMTACCTBALANCE.
+Parsing wsdl binding output MMTACCTBALANCE.
+Parsing wsdl binding input ACCOUNTVIEW.
+Parsing wsdl binding output ACCOUNTVIEW.
+Parsing wsdl binding input ACCTBRANCH.
+Parsing wsdl binding output ACCTBRANCH.
+Parsing wsdl binding input MMTACCTTXN.
+Parsing wsdl binding output MMTACCTTXN.
+Parsing wsdl binding input MMTACCTTXN_Validate.
+Parsing wsdl binding output MMTACCTTXN_Validate.
+Parsing wsdl binding input CancelDebitCard.
+Parsing wsdl binding output CancelDebitCard.
+Parsing wsdl binding input CancelDebitCard_Validate.
+Parsing wsdl binding output CancelDebitCard_Validate.
+Parsing wsdl binding input CHEQUEBOOKREQUEST.
+Parsing wsdl binding output CHEQUEBOOKREQUEST.
+Parsing wsdl binding input CHEQUEBOOKREQUEST_Validate.
+Parsing wsdl binding output CHEQUEBOOKREQUEST_Validate.
+Processing doc style for operation callOfs.
+Processing doc style for operation DEBITCARDREQUEST.
+Processing doc style for operation DEBITCARDREQUEST_Validate.
+Processing doc style for operation STOPPAYMENTCHEQUE.
+Processing doc style for operation STOPPAYMENTCHEQUE_Validate.
+Processing doc style for operation STMTDATE.
+Processing doc style for operation CHEQUESTATUS.
+Processing doc style for operation MMTFTVIEW.
+Processing doc style for operation REVOKESTOPPAYMENTCHEQUE.
+Processing doc style for operation REVOKESTOPPAYMENTCHEQUE_Validate.
+Processing doc style for operation MMTSTMT.
+Processing doc style for operation CURRENCYRATES.
+Processing doc style for operation MMTACCTBALANCE.
+Processing doc style for operation ACCOUNTVIEW.
+Processing doc style for operation ACCTBRANCH.
+Processing doc style for operation MMTACCTTXN.
+Processing doc style for operation MMTACCTTXN_Validate.
+Processing doc style for operation CancelDebitCard.
+Processing doc style for operation CancelDebitCard_Validate.
+Processing doc style for operation CHEQUEBOOKREQUEST.
+Processing doc style for operation CHEQUEBOOKREQUEST_Validate.
+Populating WSDL schema services_1_wsdl.xsd.
+Creating file services_1_wsdl.xsd in the workspace.
+Creating file /T24WSDL/services.xsd in the workspace.
+Creating file /T24WSDL/services_1.xsd in the workspace.
+Creating file /T24WSDL/services_1_2.xsd in the workspace.
+Creating file services_1_2_3.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19.xsd in the workspace.
+Creating file /T24WSDL/services_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20.xsd in the workspace.
+Copying source WSDL services_1.wsdl to services_1.wsdl.
+
+Elapsed time processing this message definition file: 43.081 seconds
+Number of warnings for this message definition file: 0
+
+
+Number of files processed: 1
+
+
+
+Elapsed time processing this message definition file: 12.994 seconds
+Number of warnings for this message definition file: 0

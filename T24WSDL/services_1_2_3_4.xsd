@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2.8 svn-revision#13980.--><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://temenos.com/CARDISSUEDELWS" version="1.0">
+  <xsd:complexType name="CARDISSUEDELWSType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="CardStatusInput90" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="gACCOUNT">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Account" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="Currency" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="IssueDate" nillable="true" type="xsd:date"/>
+      <xsd:element minOccurs="0" name="ExpiryDate" nillable="true" type="xsd:date"/>
+      <xsd:element minOccurs="0" name="gNAME">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="Name" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+          <xsd:attribute name="g" type="xsd:positiveInteger"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="PinIssueDate" nillable="true" type="xsd:date"/>
+      <xsd:element minOccurs="0" name="CancellationDate" nillable="true" type="xsd:date"/>
+      <xsd:element minOccurs="0" name="CancellationReason" nillable="true" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="Charges" nillable="true" type="xsd:decimal"/>
+      <xsd:element minOccurs="0" name="ChargeDate" nillable="true" type="xsd:date"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:string"/>
+  </xsd:complexType>
+</xsd:schema>
